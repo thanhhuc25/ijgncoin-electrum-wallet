@@ -48,7 +48,7 @@ extras_require['full'] = extras_require['hardware'] + extras_require['fast']
 
 
 setup(
-    name="Electrum-LTC",
+    name="Electrum-IJC",
     version=version.ELECTRUM_VERSION,
     install_requires=requirements,
     extras_require=extras_require,
@@ -70,10 +70,10 @@ setup(
     },
     scripts=['electrum_ltc/electrum-ltc'],
     data_files=data_files,
-    description="Lightweight Litecoin Wallet",
+    description="Lightweight Ijgncoin Wallet",
     author="Thomas Voegtlin",
     author_email="thomasv@electrum.org",
     license="MIT Licence",
     url="http://electrum-ltc.org",
-    long_description="""Lightweight Litecoin Wallet"""
+    long_description="""Lightweight Ijgncoin Wallet"""
 )
