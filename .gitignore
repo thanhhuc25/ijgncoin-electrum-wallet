@@ -1,0 +1,22 @@
+####-*.patch
+*.pyc
+*.swp
+build/
+dist/
+*.egg/
+contrib/pyinstaller/
+Electrum_LTC.egg-info/
+electrum_ltc/gui/qt/icons_rc.py
+locale/
+.devlocaltmp/
+*_trial_temp
+packages
+env/
+.tox/
+.buildozer/
+bin/
+/app.fil
+
+# tox files
+.cache/
+.coverage
